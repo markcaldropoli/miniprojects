@@ -21,7 +21,7 @@ public class UnitConverter {
 		}
 		
 		System.out.println("Please type the value to convert:");
-		int value = sc.nextInt();
+		double value = sc.nextDouble();
 		String unit = "";
 		
 		if(input == 1) {
