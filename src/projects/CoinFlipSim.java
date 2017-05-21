@@ -14,10 +14,10 @@ public class CoinFlipSim {
 			int randomNum = ThreadLocalRandom.current().nextInt(1, 2 + 1);
 			if(randomNum == 1) {
 				heads++;
-				System.out.println("Heads. Heads = "+heads+" | Tails = "+tails+" Total Flips = "+(i+1));
+				System.out.println("Heads. Heads = "+heads+" | Tails = "+tails+" | Total Flips = "+(i+1));
 			} else {
 				tails++;
-				System.out.println("Tails. Heads = "+heads+" | Tails = "+tails+" Total Flips = "+(i+1));
+				System.out.println("Tails. Heads = "+heads+" | Tails = "+tails+" | Total Flips = "+(i+1));
 			}
 		}
 		sc.close();
